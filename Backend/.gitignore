@@ -1,0 +1,38 @@
+# Ambientes e pacotes locais
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# Cache e logs
+*.log
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Diretórios de build e distribuição
+build/
+dist/
+*.egg
+
+# Alembic e migrações temporárias
+migrations/__pycache__/
+alembic/__pycache__/
+
+# Configurações locais
+.vscode/
+.idea/
+*.sqlite3
+
+# Arquivos do Poetry
+poetry.lock
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
